@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #e9ecef;
+}
+
+.task-text, .task-status, .task-category {
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+li button {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:first-child {
+    background-color: #5bc0de;
+    color: white;
+}
+
+li button:first-child:hover {
+    background-color: #31b0d5;
+}
+
+li button:last-child {
+    background-color: #d9534f;
+    color: white;
+}
+
+li button:last-child:hover {
+    background-color: #c9302c;
+}

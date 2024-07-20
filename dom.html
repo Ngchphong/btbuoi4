@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <form id="formTask">
+        <input id="inputTask" type="text" placeholder="Enter task" required>
+        <select id="taskStatus">
+            <option value="Pending">Pending</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Completed">Completed</option>
+        </select>
+        <input id="inputCategory" type="text" placeholder="Enter category" required>
+        <button type="submit">Add Task</button>
+        <button id="saveBtn" type="button">Save</button>
+    </form>
+    <ul id="tasks"></ul>
+    <script src="dom.js"></script>
+</body>
+</html>
